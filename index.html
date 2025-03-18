@@ -5,18 +5,12 @@
   <meta charset="utf-8">
   <title>Реконструкция</title>
   <meta name="description" content="Video - A-Frame">
-  <script src="./aframe-master.min.js"></script>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
 </head>
 
 <body>
   <a-scene>
-    <a-assets>
-      <video id="antarctica" autoplay loop="true" src="./360Video.mp4"> </video>
-    </a-assets>
-
-    <!-- Using the asset management system. -->
-    <a-videosphere src="#antarctica"></a-videosphere>
-
+    <a-videosphere autoplay src="vrvideo.mp4"></a-videosphere>
   </a-scene>
 </body>
 
